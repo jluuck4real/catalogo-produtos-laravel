@@ -145,4 +145,3 @@ git push -u origin main
 ```
 
 Não versione `.env`, `vendor/` nem `node_modules/`. O `.gitignore` padrão do Laravel já exclui esses arquivos.
-
