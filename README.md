@@ -37,7 +37,7 @@ php -m | Select-String -Pattern 'pdo_sqlite|sqlite3'
 Clone o repositório e entre na pasta do projeto:
 
 ```powershell
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/jluuck4real/catalogo-produtos-laravel.git
 cd catalogo-produtos
 ```
 
@@ -134,14 +134,15 @@ As capturas abaixo foram geradas a partir da aplicação local e dos arquivos at
 
 ## Publicação no GitHub
 
-Crie um repositório no GitHub e envie o código:
+O código e as capturas deste projeto estão publicados em [github.com/jluuck4real/catalogo-produtos-laravel](https://github.com/jluuck4real/catalogo-produtos-laravel). Para enviar atualizações futuras:
 
 ```powershell
 git add .
 git commit -m "feat: cria catálogo e gestão de produtos"
 git branch -M main
-git remote add origin <URL_DO_SEU_REPOSITORIO>
+git remote add origin https://github.com/jluuck4real/catalogo-produtos-laravel.git
 git push -u origin main
 ```
 
 Não versione `.env`, `vendor/` nem `node_modules/`. O `.gitignore` padrão do Laravel já exclui esses arquivos.
+
